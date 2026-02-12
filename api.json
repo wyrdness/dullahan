@@ -1,0 +1,420 @@
+{
+  "category": "UNDEAD",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/dullahan",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "dullahan",
+    "name": "Dullahan",
+    "aliases": [
+      {
+        "name": "Gan Ceann",
+        "language": "Irish",
+        "region": "Ireland",
+        "meaning": "without a head"
+      },
+      {
+        "name": "Dulachán",
+        "language": "Irish",
+        "region": "Ireland",
+        "meaning": "dark man"
+      },
+      {
+        "name": "Headless Horseman",
+        "language": "English",
+        "region": "Various",
+        "note": "American version influenced by Dullahan"
+      },
+      {
+        "name": "Far Dorcha",
+        "language": "Irish",
+        "region": "Ireland",
+        "meaning": "dark man"
+      }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Death Spirit/Entity",
+    "tags": [
+      "undead",
+      "spirit",
+      "irish",
+      "celtic",
+      "headless",
+      "death-omen",
+      "psychopomp",
+      "horseman",
+      "folklore"
+    ],
+    "status": "traditional_folklore",
+    "description": {
+      "summary": "A headless horseman from Irish folklore who carries his own head and serves as a death omen. When he calls your name, you die. The only thing the Dullahan fears is gold.",
+      "full": "The Dullahan is one of the most feared figures in Irish folklore—a headless rider who serves as a death messenger and psychopomp (spirit that guides souls to the afterlife). This supernatural being rides a black horse (sometimes also headless) while carrying his own severed head under one arm. The head is described as having a hideous grin, pallid or greenish skin, and glowing or phosphorescent properties that allow it to see great distances in the dark. The Dullahan uses a human spine as a whip to drive his horse. When the Dullahan stops riding and calls out a person's name, that person immediately dies—there is no escape. The Dullahan arrives at the location where someone is about to die. His black horse breathes flames, and locked gates fly open at his approach while water splashes away from his path. Despite his terrifying nature, the Dullahan has one weakness: gold. He is repelled by even the smallest amount of gold and will flee if gold is shown to him. The Dullahan influenced the American legend of the Headless Horseman, particularly through Washington Irving's 'The Legend of Sleepy Hollow,' though the Irish original is far more supernatural and sinister."
+    },
+    "etymology": {
+      "origin": "Irish 'Dullahan' from 'Dulachán' meaning 'dark man' or from 'gan ceann' meaning 'without a head'",
+      "meaning": "Dark man, headless one",
+      "pronunciation": "DOOL-a-han or DUL-a-han"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "UNDEAD",
+      "type": "Death Spirit/Entity",
+      "subtype": "Psychopomp/Death Messenger",
+      "variant": "Irish"
+    },
+    "related_phenomena": [
+      {
+        "id": "banshee",
+        "name": "Banshee",
+        "relationship": "similar",
+        "description": "Irish death omen, also announces death"
+      },
+      {
+        "id": "headless-horseman",
+        "name": "Headless Horseman",
+        "relationship": "derivative",
+        "description": "American version inspired by Dullahan legend"
+      },
+      {
+        "id": "dullahan",
+        "name": "Grim Reaper",
+        "relationship": "similar",
+        "description": "Death personified in different cultural tradition"
+      },
+      {
+        "id": "wild-hunt",
+        "name": "Wild Hunt",
+        "relationship": "related",
+        "description": "Another supernatural procession/death omen"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "rider": {
+        "features": [
+          {
+            "feature": "Headless body",
+            "description": "Body sits on horse without a head on shoulders",
+            "frequency": "always"
+          },
+          {
+            "feature": "Carries own head",
+            "description": "Holds severed head under arm or raised high",
+            "frequency": "always"
+          },
+          {
+            "feature": "Black clothing",
+            "description": "Often described in dark, flowing garments or cloak",
+            "frequency": "common"
+          },
+          {
+            "feature": "Spine whip",
+            "description": "Uses human spine as whip to drive horse",
+            "frequency": "common"
+          }
+        ]
+      },
+      "head": {
+        "features": [
+          {
+            "feature": "Wide grin",
+            "description": "Hideous, manic grin stretching across face",
+            "frequency": "always"
+          },
+          {
+            "feature": "Glowing/phosphorescent",
+            "description": "Head glows or has luminous quality, can see in darkness",
+            "frequency": "common"
+          },
+          {
+            "feature": "Color",
+            "description": "Pallid, greenish, or corpse-like skin",
+            "frequency": "always"
+          },
+          {
+            "feature": "Eyes",
+            "description": "Can see across vast distances even in darkness",
+            "frequency": "always"
+          }
+        ]
+      },
+      "horse": {
+        "features": [
+          {
+            "feature": "Black horse",
+            "description": "Rides black horse of supernatural nature",
+            "frequency": "always"
+          },
+          {
+            "feature": "Headless in some versions",
+            "description": "Horse itself may be headless",
+            "frequency": "occasional"
+          },
+          {
+            "feature": "Flaming breath",
+            "description": "Horse breathes flames from nostrils",
+            "frequency": "common"
+          },
+          {
+            "feature": "Flashing eyes",
+            "description": "Eyes flash or glow red",
+            "frequency": "common"
+          }
+        ]
+      },
+      "coach_variant": {
+        "description": "Sometimes drives a black coach (Cóiste Bodhar - silent coach) pulled by headless horses",
+        "frequency": "occasional"
+      }
+    },
+    "abilities": [
+      {
+        "ability": "Death calling",
+        "description": "When he speaks your name, you immediately die",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Far-seeing",
+        "description": "Head can see across great distances, even in complete darkness",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Death sense",
+        "description": "Knows where and when someone will die, arrives at death location",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Gate opening",
+        "description": "Locked gates fly open at his approach",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Water parting",
+        "description": "Water splashes away from his path",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Blood throwing",
+        "description": "May throw basin of blood on those who watch him (marking for death)",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "night",
+      "disposition": "neutral_but_dangerous",
+      "purpose": "Death messenger, psychopomp (guides souls to afterlife)",
+      "patterns": [
+        "Arrives at location where someone is about to die",
+        "Rides on dark, lonely roads",
+        "Stops when reaching destination",
+        "Calls out name of person doomed to die",
+        "Person dies immediately upon hearing their name",
+        "Does not kill—merely announces inevitable death"
+      ],
+      "role": "Not malevolent but implacable; serves as harbinger and messenger of death"
+    },
+    "vulnerability": {
+      "weakness": "Gold",
+      "description": "The only thing the Dullahan fears is gold. Even a small gold coin or gold object will make him flee.",
+      "protection": "Carrying gold, showing gold, or throwing gold at him provides protection"
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Irish folklore, strongest in rural Ireland, particularly associated with certain counties",
+      "continents": ["Europe"],
+      "countries": ["Ireland"],
+      "regions": [
+        "County Sligo",
+        "County Tyrone",
+        "Rural Ireland generally",
+        "Irish diaspora communities"
+      ]
+    },
+    "cultural_context": "Irish Celtic folklore tradition",
+    "temporal": {
+      "first_recorded": {
+        "date": "Medieval period",
+        "circa": true,
+        "source": "Oral folklore traditions, specific written documentation date unclear"
+      },
+      "tradition_period": "Medieval through modern Irish folklore"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Irish Celtic folklore, possibly connected to ancient Celtic deity Crom Dubh (dark/crooked one). May represent pre-Christian Celtic beliefs merged with later folklore.",
+      "earliest_accounts": "Oral traditions of uncertain age, documented in folklore collections",
+      "folklore_connections": "Part of broader Irish death omen traditions including banshees, connected to Celtic otherworld beliefs"
+    },
+    "timeline": [
+      {
+        "date": "Pre-Christian",
+        "event": "Possible origins",
+        "significance": "May derive from worship of Crom Dubh or similar Celtic deity",
+        "source": "Scholarly speculation"
+      },
+      {
+        "date": "Medieval period",
+        "event": "Folklore tradition established",
+        "significance": "Dullahan becomes part of Irish folklore tradition",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "19th century",
+        "event": "Folklore documentation",
+        "significance": "Irish folklore collectors document Dullahan traditions",
+        "source": "Folklore collections"
+      },
+      {
+        "date": "1820",
+        "event": "Sleepy Hollow published",
+        "significance": "Washington Irving's 'Legend of Sleepy Hollow' features Headless Horseman, influenced by Dullahan",
+        "source": "Literary work"
+      },
+      {
+        "date": "20th-21st century",
+        "event": "Popular culture",
+        "significance": "Dullahan appears in fantasy literature, games, anime",
+        "source": "Modern media"
+      }
+    ],
+    "modern_era": "The Dullahan remains part of Irish cultural heritage and has influenced countless headless horseman depictions in global popular culture. Appears in fantasy games, anime, literature as archetypal headless knight or death figure."
+  },
+
+  "psychopomp_role": {
+    "function": "Guides or announces the passage of souls from life to death",
+    "nature": "Does not cause death but announces it is time",
+    "inevitability": "Cannot be bargained with or stopped; death is certain once name is called",
+    "cultural_meaning": "Represents the inescapable nature of death and its arrival at the appointed time"
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Irish death omen traditions",
+        "Celtic otherworld beliefs",
+        "Psychopomp figures in Irish mythology"
+      ],
+      "beliefs": "The Dullahan serves a cosmic function—announcing when it is time for someone to die. He is not evil but is terrifying and implacable."
+    },
+    "indigenous": {
+      "cultures": [
+        "Irish",
+        "Celtic peoples"
+      ],
+      "significance": "Irish cultural tradition representing Irish attitudes toward death and fate",
+      "sensitivity_note": "Irish cultural tradition—part of Celtic folklore heritage"
+    },
+    "popular_culture": {
+      "literature": [
+        "Washington Irving's 'The Legend of Sleepy Hollow' (1820) - influenced by Dullahan",
+        "Various fantasy novels featuring headless knights",
+        "Irish folklore anthologies"
+      ],
+      "film_tv": [
+        "Sleepy Hollow (1999 film and others)",
+        "Various horror films featuring headless horsemen",
+        "Television adaptations"
+      ],
+      "games": [
+        "Dungeons & Dragons (inspired creatures)",
+        "Dark Souls series",
+        "Various fantasy RPGs"
+      ],
+      "anime_manga": [
+        "Durarara!! (features Celty, a Dullahan character)",
+        "Various anime featuring Dullahan characters"
+      ],
+      "other": [
+        "Halloween decorations and imagery",
+        "Gothic and horror aesthetic"
+      ]
+    }
+  },
+
+  "literary_influence": {
+    "sleepy_hollow": {
+      "title": "The Legend of Sleepy Hollow",
+      "author": "Washington Irving",
+      "date": "1820",
+      "relationship": "American Headless Horseman partially inspired by Irish Dullahan legends brought by Irish immigrants",
+      "differences": "Irving's version is more ambiguous (possibly human hoax), less supernatural than original Dullahan"
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Lady Gregory",
+        "field": "Irish folklore",
+        "contribution": "Collected and documented Irish folklore traditions",
+        "period": "Late 19th-early 20th century"
+      },
+      {
+        "name": "W.B. Yeats",
+        "field": "Irish literature and folklore",
+        "contribution": "Documented Irish supernatural traditions",
+        "period": "Late 19th-early 20th century"
+      },
+      {
+        "name": "Various Irish folklorists",
+        "field": "Folklore collection",
+        "contribution": "Documented oral traditions",
+        "period": "19th-20th century"
+      }
+    ],
+    "academic_focus": "Studied in Irish folklore, Celtic studies, and comparative mythology. Analysis focuses on death omens in Celtic tradition and psychopomp figures across cultures."
+  },
+
+  "sources": [
+    {
+      "id": "lady-gregory",
+      "type": "book",
+      "title": "Visions and Beliefs in the West of Ireland",
+      "authors": ["Lady Gregory"],
+      "date": "1920"
+    },
+    {
+      "id": "yeats-fairy",
+      "type": "book",
+      "title": "Fairy and Folk Tales of the Irish Peasantry",
+      "authors": ["W.B. Yeats"],
+      "date": "1888"
+    },
+    {
+      "id": "irish-oral",
+      "type": "oral_tradition",
+      "title": "Irish oral folklore traditions",
+      "description": "Passed down through generations in Irish communities"
+    }
+  ]
+}
