@@ -1,430 +1,182 @@
 # Dullahan
 
-> *"When the Dullahan stops riding, someone dies."*
+> A headless rider of Irish folklore who appears as a harbinger of death, riding a black horse and carrying his own severed head.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-traditional_folklore-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `dullahan` |
-| **Irish Name** | Dullahan, Gan Ceann ("without a head") |
-| **Category** | UNDEAD / ENTITY_SPIRIT |
-| **Classification** | Death Spirit / Psychopomp |
-| **Origin** | Irish folklore |
-| **Primary Region** | Ireland |
-| **Status** | Traditional folklore |
+| **Category** | UNDEAD |
+| **Subcategory** | Headless rider / death messenger |
+| **First recorded** | 1825-01-01 |
+| **Primary range** | Folkloric range across the island of Ireland, with the densest narrative tradition in the southern counties documented by Crofton Croker and the western counties documented by Yeats and later folklorists |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The **Dullahan** (Irish: *Dulachán*, meaning "dark man") is one of the most feared figures in Irish folklore—a headless horseman who serves as a death omen and messenger. This supernatural being rides a black horse through the night while carrying his own severed head under one arm. When the Dullahan stops riding and calls out a person's name, that person immediately dies.
-
-**Physical Description**:
-- **Headless body** riding a black horse
-- **Carries own head** under arm or held high
-- **Head features**: Hideous grin, pallid/greenish skin, glowing or phosphorescent
-- **Spine whip**: Uses human spine to drive the horse
-- **Black horse**: Supernatural steed, sometimes also headless, breathing flames
-
-**Supernatural Powers**:
-- **Death calling**: Speaking your name brings instant death
-- **Far-seeing**: Head can see vast distances in darkness
-- **Death sense**: Knows where and when death will occur
-- **Supernatural passage**: Gates fly open, water parts before him
-
-**Weakness**:
-- **Gold**: The only thing the Dullahan fears. Even a small amount of gold will make him flee.
-
-The Dullahan is not malevolent in the traditional sense—he does not cause death but serves as its messenger, announcing when someone's time has come. He is implacable and cannot be stopped or bargained with. The Dullahan influenced the American legend of the Headless Horseman, particularly Washington Irving's "The Legend of Sleepy Hollow."
+The Dullahan is a figure from Irish folklore — a member of the Unseelie host described as a headless rider who carries his severed head with him. He travels alone or driving a black coach (the Coiste Bodhar) drawn by six black horses, and stops only at the home of someone about to die. When he speaks, only one word is uttered: the name of the person whose soul is being summoned. Documented in detail in 19th-century Irish folklore collections, especially Thomas Crofton Croker's Fairy Legends and Traditions of the South of Ireland (1825–1828) and W. B. Yeats's Fairy and Folk Tales of the Irish Peasantry (1888), the Dullahan is closely linked to the wider European 'wild hunt' and headless-horseman traditions and is widely cited as an inspiration for Washington Irving's Headless Horseman in 'The Legend of Sleepy Hollow' (1820).
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Dubhlachan | Irish | dark, sullen person |
+| Dulachan | Irish / Ireland |  |
+| Durrachan | Irish / Ireland |  |
+| Gan Ceann | Irish | without a head |
+| Coiste Bodhar | Irish | deaf or silent coach (the death coach) |
+| Far Dorocha | Irish / Ireland | the dark man (related figure) |
 
-### Primary Name
-- **Dullahan** / **Dulachán** (Irish) — "dark man"
+## Etymology
 
-### Alternative Names
-
-| Name | Language | Meaning |
-|------|----------|---------|
-| Dullahan | Irish | Dark man |
-| Gan Ceann | Irish | Without a head |
-| Dulachán | Irish | Dark man (alternate spelling) |
-| Far Dorcha | Irish | Dark man |
-| Headless Horseman | English | Anglicized/American derivative |
-
-### Pronunciation
-- **DOOL-a-han** or **DUL-a-han**
+- **Origin**: Anglicization of Irish 'dubhlachán' or 'dulachán', from 'dubh' (black, dark) plus a diminutive ending; also linked by some glossaries to 'dorr/durr' (anger) or 'durrach' (malicious, fierce).
+- **Meaning**: 'Dark man' or 'gloomy little fellow'; also rendered as 'without a head' (Gan Ceann).
+- **First use**: Recorded in English-language print in the 19th century; Croker's 1825–1828 collection is the earliest widely cited.
 
 ---
+## Related Phenomena
 
-## Classification
-
-### Taxonomy
-```
-Category: UNDEAD / ENTITY_SPIRIT
-├── Type: Death Spirit
-├── Subtype: Psychopomp / Death Messenger
-└── Variant: Irish Celtic
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Banshee](/banshee) | Similar | Irish death omen, wails to announce death |
-| [Headless Horseman](/headless-horseman) | Derivative | American version inspired by Dullahan |
-| Grim Reaper | Similar | Death personified in different tradition |
-| [Wild Hunt](/wild-hunt) | Related | Supernatural procession/death omen |
+- [Headless Horseman](../headless-horseman/) — _similar_: Washington Irving's 1820 Sleepy Hollow figure, widely held to derive in part from Dullahan tradition
+- [Ankou](../ankou/) — _similar_: Breton personification of death who drives a death cart
+- [Wild Hunt](../wild-hunt/) — _related_: Pan-European spectral hunt of the dead
+- [Banshee](../banshee/) — _related_: Irish death-herald spirit, often paired with the Dullahan in folklore
+- [Phantom Armies](../phantom-armies/) — _related_: Spectral hosts overlapping with the Coiste Bodhar tradition
 
 ---
+## Physical Description
 
-## Physical Characteristics
+- **Coloration**: black (clothing and horse), ashen / pale (head)
+- **Morphology**: Anthropomorphic male rider of human size, decapitated; the carried head is presented as alive and observant despite being detached.
 
-### The Rider
+### Features
 
-**Body**:
-- Headless, sitting upright on horse
-- No head on shoulders
-- Dark, flowing clothing or cloak
-- Carries severed head under arm or held aloft
+| Feature | Description | Frequency |
+|---|---|---|
+| Severed head carried in hand | The Dullahan's head, removed from the body, is carried under the arm or held aloft; it is described by Croker as resembling a stale cheese with depressed features and enormous eyes that dart about | always |
+| Black horse or coach | Rides a black horse, or drives the Coiste Bodhar (death coach) drawn by six black horses | always |
+| Whip of human spine | Carries a whip said to be made from a human spinal column | common |
+| Gates and locks open of their own accord | All gates, doors, and locks open before him, regardless of fastenings | always |
+| Silent except to name the dying | Utters only the name of the person about to die; otherwise silent | common |
 
-**Spine Whip**:
-- Uses human spine as whip to drive horse
-- Cracks whip to urge steed forward
+## Reported Abilities
 
----
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Death foretelling | Calls aloud the name of the person whose soul is to be taken, sealing their death | always | folklore |
+| Bypassing physical barriers | Locked gates, walls, and doors yield in his presence | always | folklore |
+| Throwing blood | May throw a basin of blood in the face of anyone who watches him pass; that person is marked for death or struck blind in one eye | occasional | folklore |
+| Repulsion by gold | The only known protection: even a small amount of gold reportedly causes the Dullahan to vanish | common | folklore |
 
-### The Head
+## Behavior
 
-**Appearance**:
-- **Wide, hideous grin** stretching across face
-- **Pallid or greenish skin** like corpse
-- **Glowing/phosphorescent** quality
-- **Can see in complete darkness**
-- **Eyes can see across vast distances**
-
-**Function**:
-- Carried under arm or raised high to see
-- Calls out name of doomed person
-- Watches for those marked for death
-
----
-
-### The Horse
-
-**Appearance**:
-- **Black horse** of supernatural nature
-- Sometimes **headless** itself
-- **Breathes flames** from nostrils
-- **Eyes flash red** or glow
-- Moves with supernatural speed
-
-**Abilities**:
-- Gallops through the night
-- Supernatural endurance
-- Otherworldly nature
+- **Activity**: nocturnal
+- **Disposition**: neutral
+- **Social structure**: solitary
+- **Habitat**: country roads, graveyards, old bridges, parishes with imminent deaths, rural Ireland
+- **Diet**: Not described; the Dullahan is an undead messenger rather than a corporeal feeder
 
 ---
+## Distribution
 
-### Coach Variant
+Folkloric range across the island of Ireland, with the densest narrative tradition in the southern counties documented by Crofton Croker and the western counties documented by Yeats and later folklorists.
 
-In some versions, the Dullahan drives:
-- **Cóiste Bodhar** (silent coach)
-- Black coach pulled by headless horses
-- Carries the dead
-- Silent wheels
+### Hotspots
 
----
-
-## Supernatural Abilities
-
-| Ability | Description | Effect |
-|---------|-------------|--------|
-| **Death Calling** | Speaks the name of doomed person | Instant death when name is heard |
-| **Far-Seeing** | Head sees across great distances | Can spot the dying even far away |
-| **Death Sense** | Knows when and where death will occur | Arrives at exact location |
-| **Gate Opening** | Locked gates fly open | No barrier can stop him |
-| **Water Parting** | Water splashes away from path | Supernatural passage |
-| **Blood Throwing** | Throws basin of blood on watchers | Marks them for death or blindness |
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| County Sligo | Connacht, Ireland |  | 19th century |
+| County Cork | Munster, Ireland |  | Early 19th century |
 
 ---
-
-## Behavior & Purpose
-
-### Role: Psychopomp
-
-The Dullahan serves as a **psychopomp**—a spirit that guides souls from life to death.
-
-**Function**:
-- Announces when someone's time has come
-- Arrives at location of imminent death
-- Calls out the person's name
-- Death follows immediately
-
-**Nature**:
-- **Not evil** but terrifying
-- **Does not cause death**—merely announces it
-- **Implacable**—cannot be stopped or reasoned with
-- **Serves cosmic function**—death's messenger
-
----
-
-### Behavioral Patterns
-
-**Activity**:
-- Rides at night
-- Travels dark, lonely roads
-- Appears where death is imminent
-
-**Process**:
-1. Rides to location of impending death
-2. Stops at the place
-3. Calls out the doomed person's name
-4. Person dies immediately upon hearing name
-5. Dullahan departs
-
-**Interaction**:
-- Does not speak except to call the name
-- May throw blood on those who watch him
-- Flees from gold
-
----
-
-## Weakness: Gold
-
-### The Only Protection
-
-**Gold** is the Dullahan's sole vulnerability.
-
-**Why Gold Works**:
-- Unknown—part of the ancient legend
-- Gold is sacred metal in Celtic tradition
-- Represents light/sun opposed to dark figure
-
-**How to Use**:
-- **Carry gold** on your person (coin, jewelry)
-- **Show gold** to the Dullahan
-- **Throw gold** at him
-- Even **small amount** is effective
-
-**Effect**:
-- Dullahan will flee immediately
-- Cannot approach gold
-- Protection is absolute
-
----
-
-## Cultural Context
-
-### Irish Folklore Tradition
-
-The Dullahan is part of rich Irish tradition of death omens:
-- **Banshee** - Wails to announce death
-- **Dullahan** - Calls name of the dying
-- **Fetch** - Doppelganger death omen
-- **Black dogs** - Death omens
-
-### Possible Origins
-
-**Crom Dubh Connection**:
-- May derive from ancient Celtic deity **Crom Dubh** (dark/crooked one)
-- Pre-Christian god possibly requiring human sacrifice
-- Headless aspect may relate to ancient rituals
-- Transformed into folklore figure over time
-
-**Celtic Death Beliefs**:
-- Celts had complex afterlife beliefs
-- Psychopomps guide souls between worlds
-- Head held special significance in Celtic culture
-- Horses associated with otherworld
-
----
-
-### Symbolism
-
-The Dullahan represents:
-- **Inevitability of death** - Cannot be escaped
-- **Death's impartiality** - Comes for all
-- **Fate** - Your time is predetermined
-- **The unknown** - Death's mysterious nature
-- **The otherworld** - Boundary between life and death
-
----
-
 ## Historical Timeline
 
-### Origins
+| Date | Event | Significance |
+|---|---|---|
+| 1825-01-01 | Thomas Crofton Croker publishes the first volume of 'Fairy Legends and Traditions of the South of Ireland', containing detailed Dullahan and Coiste Bodhar accounts | First English-language print documentation of the Dullahan |
+| 1888-01-01 | W. B. Yeats publishes 'Fairy and Folk Tales of the Irish Peasantry', collecting and reframing earlier Dullahan accounts | Anchors the Dullahan in the Irish Literary Revival canon |
+| 1973-01-01 | Folklorist Patricia Lysaght and others begin systematic academic study of Irish death-messenger figures | Modern folkloristics frames the Dullahan alongside the banshee in death-omen tradition |
 
-| Period | Significance |
-|--------|--------------|
-| **Pre-Christian** | Possible origins in Celtic deity Crom Dubh |
-| **Medieval** | Dullahan tradition established in Irish folklore |
-| **19th century** | Folklore collectors document traditions |
+## Evidence
 
----
+### Documentary
 
-### Modern Influence
-
-**1820**: Washington Irving publishes "The Legend of Sleepy Hollow"
-- Features Headless Horseman
-- Influenced by Irish Dullahan brought by immigrants
-- American version less supernatural than original
-
-**20th-21st Century**: Popular culture adoption
-- Fantasy games and RPGs
-- Anime and manga (Durarara!!, etc.)
-- Horror films
-- Gothic imagery
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Croker's 'Fairy Legends and Traditions of the South of Ireland' | 1825 | Three-volume folklore collection containing the foundational English-language Dullahan and Coiste Bodhar narratives, including 'The Good Woman' and 'Hanlon's Mill'. | unverified |
+| Yeats's 'Fairy and Folk Tales of the Irish Peasantry' | 1888 | Anthology that re-presents earlier Dullahan accounts and includes the figure under the rubric of solitary fairies. | unverified |
 
 ---
+## Theories & Explanations
 
-## The Dullahan vs. Headless Horseman
+### Paranormal / Cryptozoological
 
-### Key Differences
+**Death messenger of the Otherworld** _(W. B. Yeats, Lady Wilde)_
 
-| Aspect | Dullahan (Irish) | Headless Horseman (American) |
-|--------|------------------|------------------------------|
-| **Nature** | Supernatural death messenger | Possibly human ghost or hoax |
-| **Purpose** | Announces inevitable death | Haunts specific location |
-| **Head** | Carries own head, uses it | Missing head entirely |
-| **Death** | Calling your name kills you | Chases/frightens victims |
-| **Weakness** | Gold | Various (pumpkins in Sleepy Hollow) |
-| **Role** | Psychopomp, cosmic function | Vengeful or territorial ghost |
+The Dullahan is a member of the Unseelie / Sluagh, dispatched from the Otherworld to summon the dying.
 
----
+### Skeptical
 
-## In Popular Culture
+**Folkloric narrative without referent** _(Modern folkloristics consensus)_
 
-### Literature
+The Dullahan is a literary-folkloric figure without an extant phenomenological basis; its 'sightings' are stories rather than encounter reports.
 
-- **Washington Irving** - "The Legend of Sleepy Hollow" (1820) - Inspired by
-- **W.B. Yeats** - Irish folklore collections
-- **Lady Gregory** - Irish folklore documentation
-- Modern fantasy novels featuring headless knights
+**Diffusion from European headless-rider archetype** _(Patricia Lysaght, Katharine Briggs)_
 
-### Film & Television
+The Dullahan represents the Irish localization of a wider European headless-horseman / Wild Hunt narrative complex.
 
-- *Sleepy Hollow* (1999) and various adaptations
-- Horror films featuring headless riders
-- Supernatural/fantasy TV shows
 
-### Games
+## Popular Culture
 
-- Dungeons & Dragons (inspired creatures)
-- Dark Souls series
-- Fantasy RPGs (common enemy/character type)
+**Literature**: 'Fairy Legends and Traditions of the South of Ireland' — Thomas Crofton Croker (1825–1828); 'Fairy and Folk Tales of the Irish Peasantry' — W. B. Yeats (1888); 'The Banshee: The Irish Supernatural Death-Messenger' — Patricia Lysaght (1986)
 
-### Anime & Manga
+**Film / TV**: 'Darby O'Gill and the Little People' (1959) — features a Coiste Bodhar / death-coach scene; 'Hellboy II: The Golden Army' (2008) — features a Dullahan-derived design; 'The Hollow' / 'Sleepy Hollow' (1999) — Tim Burton, descendants of the Dullahan tradition via Washington Irving
 
-- *Durarara!!* - Features Celty Sturluson, a Dullahan character
-- Various anime with Dullahan characters
-- Often portrayed as female in Japanese media
+**Games**: 'Final Fantasy' series — recurring Dullahan enemy; 'Castlevania' series — recurring Dullahan enemy
 
-### Other
-
-- Halloween imagery and decorations
-- Gothic horror aesthetic
-- Heavy metal album art
-- Irish cultural festivals
+**Other**: Heavily referenced in Irish Halloween / Samhain heritage events; Cited by Washington Irving as among the Irish folktales that influenced 'The Legend of Sleepy Hollow' (1820)
 
 ---
+## Research
 
-## Academic Study
+### Researchers
 
-### Folklore Scholars
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Thomas Crofton Croker | Antiquary, British Admiralty | First major English-language folklore collection containing Dullahan tales | 1798–1854 |
+| W. B. Yeats | Poet, Irish Literary Revival | Anthologised the Dullahan in 'Fairy and Folk Tales of the Irish Peasantry' | 1865–1939 |
+| Lady Jane Wilde ('Speranza') | Folklorist | Recorded Irish death-messenger traditions in 'Ancient Legends, Mystic Charms and Superstitions of Ireland' (1887) | 1821–1896 |
+| Patricia Lysaght | University College Dublin | Scholarly study of Irish supernatural death-messengers | 1980s–present |
+| Katharine Briggs | Folklore Society (UK) | Comparative cataloguing of British and Irish supernatural beings, including the Dullahan | 1950s–1980 |
 
-| Name | Contribution |
-|------|--------------|
-| **Lady Gregory** | Irish folklore collection (early 20th c.) |
-| **W.B. Yeats** | Irish supernatural traditions documentation |
-| **Irish folklorists** | Oral tradition preservation |
+### Organizations
 
-### Research Areas
+- [National Folklore Collection (UCD) / Dúchas](https://www.duchas.ie) — Primary archive of Irish folk tradition, including Dullahan accounts
+- [The Folklore Society (UK)](https://folklore-society.com) — Comparative folkloristics of the British Isles
 
-- **Irish folklore** - Death omen traditions
-- **Celtic studies** - Pre-Christian connections
-- **Comparative mythology** - Psychopomp figures globally
-- **Cultural studies** - Irish attitudes toward death
-
----
-
-## Protection & Encounters
-
-### If You Encounter the Dullahan
-
-**Warning Signs**:
-- Sound of galloping hooves at night
-- Flaming horse's breath
-- Sudden gate openings
-- Feeling of dread
-
-**What to Do**:
-1. **Use gold** - Show, throw, or display gold immediately
-2. **Do not look** - Watching may result in blood thrown on you
-3. **Do not interfere** - Cannot stop his purpose
-4. **Flee if possible** - Get away from his path
-
-**What NOT to Do**:
-- Do not try to stop him
-- Do not mock or disrespect
-- Do not be on the road he travels
+Ongoing folkloristic work centres on the Dúchas digital archive, Patricia Lysaght's continuing publications on Irish death-messengers, and comparative work on the European Wild Hunt complex.
 
 ---
+## Sources
 
-## API Reference
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-Machine-readable data is available in [`api.json`](api.json).
 
-### Direct Access
+## How to Report a Sighting
 
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/dullahan/main/api.json
-```
-
----
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Essential Reading
-
-- Lady Gregory (1920). *Visions and Beliefs in the West of Ireland*
-- Yeats, W.B. (1888). *Fairy and Folk Tales of the Irish Peasantry*
-- Irish oral folklore traditions
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-*"Fear gold he cannot bear"*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

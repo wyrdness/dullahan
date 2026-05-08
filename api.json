@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/dullahan",
     "maintainers": [
       {
@@ -16,111 +16,279 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "dullahan",
     "name": "Dullahan",
-    "aliases": [],
-    "category": "UNDEAD_/_ENTITY_SPIRIT",
-    "subcategory": "Psychopomp / Death Messenger",
+    "aliases": [
+      { "name": "Dubhlachan", "language": "Irish", "meaning": "dark, sullen person" },
+      { "name": "Dulachan", "language": "Irish", "region": "Ireland" },
+      { "name": "Durrachan", "language": "Irish", "region": "Ireland" },
+      { "name": "Gan Ceann", "language": "Irish", "meaning": "without a head" },
+      { "name": "Coiste Bodhar", "language": "Irish", "meaning": "deaf or silent coach (the death coach)" },
+      { "name": "Far Dorocha", "language": "Irish", "region": "Ireland", "meaning": "the dark man (related figure)" }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Headless rider / death messenger",
     "tags": [
-      "folklore",
-      "mythology"
+      "headless",
+      "horseman",
+      "death-omen",
+      "irish-folklore",
+      "psychopomp",
+      "fairy",
+      "celtic"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **Dullahan** (Irish: *Dulachán*, meaning \\\"dark man\\\") is one of the most feared figures in Irish folklore—a headless horseman who serves as a death omen and messenger.",
-      "full": "The **Dullahan** (Irish: *Dulachán*, meaning \\\"dark man\\\") is one of the most feared figures in Irish folklore—a headless horseman who serves as a death omen and messenger. This supernatural being rides a black horse through the night while carrying his own severed head under one arm. When the Dullahan stops riding and calls out a person's name, that person immediately dies."
+      "summary": "A headless rider of Irish folklore who appears as a harbinger of death, riding a black horse and carrying his own severed head.",
+      "full": "The Dullahan is a figure from Irish folklore — a member of the Unseelie host described as a headless rider who carries his severed head with him. He travels alone or driving a black coach (the Coiste Bodhar) drawn by six black horses, and stops only at the home of someone about to die. When he speaks, only one word is uttered: the name of the person whose soul is being summoned. Documented in detail in 19th-century Irish folklore collections, especially Thomas Crofton Croker's Fairy Legends and Traditions of the South of Ireland (1825–1828) and W. B. Yeats's Fairy and Folk Tales of the Irish Peasantry (1888), the Dullahan is closely linked to the wider European 'wild hunt' and headless-horseman traditions and is widely cited as an inspiration for Washington Irving's Headless Horseman in 'The Legend of Sleepy Hollow' (1820)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Anglicization of Irish 'dubhlachán' or 'dulachán', from 'dubh' (black, dark) plus a diminutive ending; also linked by some glossaries to 'dorr/durr' (anger) or 'durrach' (malicious, fierce).",
+      "meaning": "'Dark man' or 'gloomy little fellow'; also rendered as 'without a head' (Gan Ceann).",
+      "first_use": "Recorded in English-language print in the 19th century; Croker's 1825–1828 collection is the earliest widely cited."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "UNDEAD_/_ENTITY_SPIRIT",
-      "type": "Psychopomp / Death Messenger",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "UNDEAD",
+      "type": "Death messenger / psychopomp",
+      "subtype": "Headless rider",
+      "variant": "Irish (Gaelic)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "headless-horseman", "name": "Headless Horseman", "relationship": "similar", "description": "Washington Irving's 1820 Sleepy Hollow figure, widely held to derive in part from Dullahan tradition" },
+      { "id": "ankou", "name": "Ankou", "relationship": "similar", "description": "Breton personification of death who drives a death cart" },
+      { "id": "wild-hunt", "name": "Wild Hunt", "relationship": "related", "description": "Pan-European spectral hunt of the dead" },
+      { "id": "banshee", "name": "Banshee", "relationship": "related", "description": "Irish death-herald spirit, often paired with the Dullahan in folklore" },
+      { "id": "phantom-armies", "name": "Phantom Armies", "relationship": "related", "description": "Spectral hosts overlapping with the Coiste Bodhar tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["black (clothing and horse)", "ashen / pale (head)"],
+      "features": [
+        { "feature": "Severed head carried in hand", "description": "The Dullahan's head, removed from the body, is carried under the arm or held aloft; it is described by Croker as resembling a stale cheese with depressed features and enormous eyes that dart about", "frequency": "always" },
+        { "feature": "Black horse or coach", "description": "Rides a black horse, or drives the Coiste Bodhar (death coach) drawn by six black horses", "frequency": "always" },
+        { "feature": "Whip of human spine", "description": "Carries a whip said to be made from a human spinal column", "frequency": "common" },
+        { "feature": "Gates and locks open of their own accord", "description": "All gates, doors, and locks open before him, regardless of fastenings", "frequency": "always" },
+        { "feature": "Silent except to name the dying", "description": "Utters only the name of the person about to die; otherwise silent", "frequency": "common" }
+      ],
+      "morphology": "Anthropomorphic male rider of human size, decapitated; the carried head is presented as alive and observant despite being detached."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Death foretelling", "description": "Calls aloud the name of the person whose soul is to be taken, sealing their death", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Bypassing physical barriers", "description": "Locked gates, walls, and doors yield in his presence", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Throwing blood", "description": "May throw a basin of blood in the face of anyone who watches him pass; that person is marked for death or struck blind in one eye", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Repulsion by gold", "description": "The only known protection: even a small amount of gold reportedly causes the Dullahan to vanish", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["country roads", "graveyards", "old bridges", "parishes with imminent deaths", "rural Ireland"],
+      "diet": "Not described; the Dullahan is an undead messenger rather than a corporeal feeder",
+      "patterns": [
+        "Rides at night, particularly on Irish feast days such as Samhain",
+        "Stops outside the home of a person about to die and calls their name",
+        "Disappears at dawn or when confronted with gold",
+        "Does not respond to questioning; cannot be detained"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folkloric range across the island of Ireland, with the densest narrative tradition in the southern counties documented by Crofton Croker and the western counties documented by Yeats and later folklorists.",
+      "continents": ["Europe"],
+      "countries": ["Ireland", "United Kingdom (Northern Ireland)"],
+      "regions": [
+        "Munster",
+        "County Cork",
+        "County Kerry",
+        "County Sligo",
+        "County Galway",
+        "Connacht"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "County Sligo",
+        "location": {
+          "description": "Rural County Sligo, especially the area around Sligo town and Drumcliff",
+          "country": "Ireland",
+          "region": "Connacht"
+        },
+        "peak_period": "19th century",
+        "notes": "Region from which W. B. Yeats collected and published Dullahan tales"
+      },
+      {
+        "name": "County Cork",
+        "location": {
+          "description": "Rural County Cork, southern Ireland",
+          "country": "Ireland",
+          "region": "Munster"
+        },
+        "peak_period": "Early 19th century",
+        "notes": "Source region for Thomas Crofton Croker's foundational Dullahan tales in 'Fairy Legends and Traditions of the South of Ireland'"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1825",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Crofton Croker, 'Fairy Legends and Traditions of the South of Ireland' (1825–1828)"
+      },
+      "peak_activity_periods": [
+        { "period": "19th century", "description": "Documentation peak during the Irish folklore revival" }
+      ],
+      "seasonal_patterns": "Strongly associated with Samhain (1 November) and other Irish feast days when the boundary between worlds is held to be thin."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Irish (Gaelic) folk tradition; identified by 19th-century folklorists as one of the solitary fairies of the Unseelie court.",
+      "earliest_accounts": "Earliest written accounts in English appear in Thomas Crofton Croker's three-volume 'Fairy Legends and Traditions of the South of Ireland' (1825–1828).",
+      "folklore_connections": "Connected to a wider European tradition of headless riders (German Wütende Heer, Scandinavian Aaskereia), Breton Ankou, and English/Continental Wild Hunt; influenced Washington Irving's Headless Horseman."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1825-01-01", "event": "Thomas Crofton Croker publishes the first volume of 'Fairy Legends and Traditions of the South of Ireland', containing detailed Dullahan and Coiste Bodhar accounts", "significance": "First English-language print documentation of the Dullahan", "source": "Croker, T. C. (1825–1828)" },
+      { "date": "1888-01-01", "event": "W. B. Yeats publishes 'Fairy and Folk Tales of the Irish Peasantry', collecting and reframing earlier Dullahan accounts", "significance": "Anchors the Dullahan in the Irish Literary Revival canon", "source": "Yeats, W. B. (1888)" },
+      { "date": "1973-01-01", "event": "Folklorist Patricia Lysaght and others begin systematic academic study of Irish death-messenger figures", "significance": "Modern folkloristics frames the Dullahan alongside the banshee in death-omen tradition", "source": "Irish Folklore Commission archives" }
+    ],
+    "modern_era": "The Dullahan persists as a stock figure of Irish heritage media, Halloween folklore, and dark fantasy. Patricia Lysaght's scholarship on Irish death-messengers and the Dúchas digital archive of the Irish National Folklore Collection have made primary-source Dullahan testimonies more publicly available."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "Pre-19th century", "latest": "19th century" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "dullahan-evidence-croker",
+        "type": "folklore collection",
+        "name": "Croker's 'Fairy Legends and Traditions of the South of Ireland'",
+        "date": "1825",
+        "description": "Three-volume folklore collection containing the foundational English-language Dullahan and Coiste Bodhar narratives, including 'The Good Woman' and 'Hanlon's Mill'.",
+        "status": "unverified",
+        "analysis": "Acknowledged as the principal documentary source for the Dullahan in scholarly folkloristics; presented as folktale, not eyewitness report.",
+        "source": "Crofton Croker (1825–1828)"
+      },
+      {
+        "id": "dullahan-evidence-yeats",
+        "type": "folklore collection",
+        "name": "Yeats's 'Fairy and Folk Tales of the Irish Peasantry'",
+        "date": "1888",
+        "description": "Anthology that re-presents earlier Dullahan accounts and includes the figure under the rubric of solitary fairies.",
+        "status": "unverified",
+        "analysis": "Editorial reworking of earlier 19th-century field collections.",
+        "source": "Yeats (1888)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Death messenger of the Otherworld",
+        "description": "The Dullahan is a member of the Unseelie / Sluagh, dispatched from the Otherworld to summon the dying.",
+        "proponents": ["W. B. Yeats", "Lady Wilde"],
+        "evidence_cited": ["Folkloric continuity with banshee tradition", "Coiste Bodhar variant accounts"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folkloric narrative without referent",
+        "description": "The Dullahan is a literary-folkloric figure without an extant phenomenological basis; its 'sightings' are stories rather than encounter reports.",
+        "proponents": ["Modern folkloristics consensus"],
+        "evidence_cited": ["No documented eyewitness corpus", "Pattern follows European headless-rider archetype rather than localized phenomenology"]
+      },
+      {
+        "name": "Diffusion from European headless-rider archetype",
+        "description": "The Dullahan represents the Irish localization of a wider European headless-horseman / Wild Hunt narrative complex.",
+        "proponents": ["Patricia Lysaght", "Katharine Briggs"],
+        "evidence_cited": ["Parallels with Ankou, Wütende Heer, and Aaskereia traditions", "Late date of first textual attestation"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Irish solitary fairy tradition (Unseelie host)",
+        "Coiste Bodhar (death coach) tradition",
+        "Samhain death-omen tradition"
+      ],
+      "stories": [
+        "'The Good Woman' (Crofton Croker, 1825)",
+        "'Hanlon's Mill' (Crofton Croker, 1825)",
+        "'The Harvest Dinner' (Crofton Croker, 1825)"
+      ],
+      "beliefs": "The Dullahan's calling of a name was held to be inevitable and unappealable; the only known protection was gold, even in trace amount. Watching him pass risked having a basin of blood thrown in one's face or being struck blind in one eye."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "'Fairy Legends and Traditions of the South of Ireland' — Thomas Crofton Croker (1825–1828)",
+        "'Fairy and Folk Tales of the Irish Peasantry' — W. B. Yeats (1888)",
+        "'The Banshee: The Irish Supernatural Death-Messenger' — Patricia Lysaght (1986)"
+      ],
+      "film_tv": [
+        "'Darby O'Gill and the Little People' (1959) — features a Coiste Bodhar / death-coach scene",
+        "'Hellboy II: The Golden Army' (2008) — features a Dullahan-derived design",
+        "'The Hollow' / 'Sleepy Hollow' (1999) — Tim Burton, descendants of the Dullahan tradition via Washington Irving"
+      ],
+      "games": [
+        "'Final Fantasy' series — recurring Dullahan enemy",
+        "'Castlevania' series — recurring Dullahan enemy"
+      ],
+      "other": [
+        "Heavily referenced in Irish Halloween / Samhain heritage events",
+        "Cited by Washington Irving as among the Irish folktales that influenced 'The Legend of Sleepy Hollow' (1820)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Thomas Crofton Croker", "affiliation": "Antiquary, British Admiralty", "contribution": "First major English-language folklore collection containing Dullahan tales", "period": "1798–1854" },
+      { "name": "W. B. Yeats", "affiliation": "Poet, Irish Literary Revival", "contribution": "Anthologised the Dullahan in 'Fairy and Folk Tales of the Irish Peasantry'", "period": "1865–1939" },
+      { "name": "Lady Jane Wilde ('Speranza')", "affiliation": "Folklorist", "contribution": "Recorded Irish death-messenger traditions in 'Ancient Legends, Mystic Charms and Superstitions of Ireland' (1887)", "period": "1821–1896" },
+      { "name": "Patricia Lysaght", "affiliation": "University College Dublin", "contribution": "Scholarly study of Irish supernatural death-messengers", "period": "1980s–present" },
+      { "name": "Katharine Briggs", "affiliation": "Folklore Society (UK)", "contribution": "Comparative cataloguing of British and Irish supernatural beings, including the Dullahan", "period": "1950s–1980" }
+    ],
+    "organizations": [
+      { "name": "National Folklore Collection (UCD) / Dúchas", "url": "https://www.duchas.ie", "focus": "Primary archive of Irish folk tradition, including Dullahan accounts" },
+      { "name": "The Folklore Society (UK)", "url": "https://folklore-society.com", "focus": "Comparative folkloristics of the British Isles" }
+    ],
+    "ongoing_studies": "Ongoing folkloristic work centres on the Dúchas digital archive, Patricia Lysaght's continuing publications on Irish death-messengers, and comparative work on the European Wild Hunt complex."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "croker-1825", "type": "book", "title": "Fairy Legends and Traditions of the South of Ireland", "authors": ["Thomas Crofton Croker"], "publication": "John Murray, London", "date": "1825" },
+    { "id": "yeats-1888", "type": "book", "title": "Fairy and Folk Tales of the Irish Peasantry", "authors": ["W. B. Yeats"], "publication": "Walter Scott, London", "date": "1888" },
+    { "id": "wilde-1887", "type": "book", "title": "Ancient Legends, Mystic Charms and Superstitions of Ireland", "authors": ["Lady Jane Wilde"], "publication": "Ward and Downey, London", "date": "1887" },
+    { "id": "lysaght-1986", "type": "book", "title": "The Banshee: The Irish Supernatural Death-Messenger", "authors": ["Patricia Lysaght"], "publication": "Glendale Press, Dublin", "date": "1986", "isbn": "978-0907606383" },
+    { "id": "briggs-1976", "type": "book", "title": "An Encyclopedia of Fairies", "authors": ["Katharine Briggs"], "publication": "Pantheon Books", "date": "1976", "isbn": "978-0394734675" },
+    { "id": "wikipedia-dullahan", "type": "website", "title": "Dullahan", "url": "https://en.wikipedia.org/wiki/Dullahan", "accessed": "2026-05-07" },
+    { "id": "duchas", "type": "archive", "title": "Dúchas / The National Folklore Collection of Ireland", "url": "https://www.duchas.ie", "accessed": "2026-05-07" }
+  ]
 }
